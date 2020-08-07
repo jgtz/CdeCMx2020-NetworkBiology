@@ -18,7 +18,7 @@ Note: These networks were obtained from NDEx (http://ndexbio.org/). You need to 
   * Gysi et al., arXiv:2004.07229v1 (https://arxiv.org/abs/2004.07229).
   
 
-# The Challenge
+## The Challenge
   
 1. Use NetworkX to calculate network theory measures (degree, distance, betweeness centrality, and others you might find interesting) on each of the three PPI networks (COVID-Human, Human, Drug-Human). What is the distribution of these network measures? What are the nodes or node pairs with the highest value for these measures in each network?
 2. Combine these three PPI networks. Do the same as in part 1 but for this combined network.
@@ -26,7 +26,7 @@ Note: These networks were obtained from NDEx (http://ndexbio.org/). You need to 
 4. Apply the network proximity measure from the Zhou et al. paper using the combined PPI network. What are the top drugs you find?
 5. Visualize the results from each this parts.
 
-# Notes and Hints
+## Notes and Hints
 
 - Make sure that, when you import the networks, they are of the right type of network (we've only discussed undirected networks). The meaning of distance, centrality, etc. can have a different meaning depending on if the network is undirected, directed, a multigraph, etc.
 - Certain network measures can take a long time to calculate in large networks (like the Human and Drug-Human PPI networks). In particular, distance and betweeness centrality can take some time. You can try calculating these measures for a subset of nodes or nodes pairs to get an idea of how long calculating all will take.
