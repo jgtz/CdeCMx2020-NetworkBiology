@@ -10,6 +10,7 @@ Current content is:
   * SARS-CoV-2 - Human PPI network. Gordon et al., Nature 2020. (https://www.nature.com/articles/s41586-020-2286-9).
   * Human PPI network. Luck et al., Nature 2020. (https://www.nature.com/articles/s41586-020-2188-x).
   * Drug - Human protein target network. DrugBank (https://www.drugbank.ca/).
+
 Note: These networks were obtained from NDEx (http://ndexbio.org/). You need to register to copy these networks and export them in the GraphML format (which can be read by NetworkX and most network libraries and software.
   
 - Can we do a similar approach (as in the papers below) to infer drug repurposing targets for COVID-19 based on the proximity of a drug's protein targets to the SARS-CoV-2 - Human protein interactions?
