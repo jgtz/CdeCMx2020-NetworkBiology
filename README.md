@@ -28,5 +28,6 @@ Note: These networks were obtained from NDEx (http://ndexbio.org/). You need to 
 
 # Notes and Hints
 
+- Make sure that, when you import the networks, they are of the right type of network (we've only discussed undirected networks). The meaning of distance, centrality, etc. can have a different meaning depending on if the network is undirected, directed, a multigraph, etc.
 - Certain network measures can take a long time to calculate in large networks (like the Human and Drug-Human PPI networks). In particular, distance and betweeness centrality can take some time. You can try calculating these measures for a subset of nodes or nodes pairs to get an idea of how long calculating all will take.
 - To combine the three PPI networks, you need to know which proteins are shared between them. Make sure the combined network is getting the interactions for each protein from the three PPI networks. 
