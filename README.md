@@ -1,4 +1,4 @@
-# CdeCMx2020-NetworkBiology
+# CdeCMx2020-NetworkBiology Challenge
 
 This repository contains the Jupyter notebooks, networks, and other files for the CdeCMx 2020 Network Biology Challenge.
 
@@ -17,3 +17,16 @@ Note: These networks were obtained from NDEx (http://ndexbio.org/). You need to 
   * Zhou et al., Cell Discovery 2020 (https://www.nature.com/articles/s41421-020-0153-3).
   * Gysi et al., arXiv:2004.07229v1 (https://arxiv.org/abs/2004.07229).
   
+
+# The Challenge
+  
+1. Use NetworkX to calculate network theory measures (degree, distance, betweeness centrality, and others you might find interesting) on each of the three PPI networks (COVID-Human, Human, Drug-Human). What is the distribution of these network measures? What are the nodes or node pairs with the highest value for these measures in each network?
+2. Combine these three PPI networks. Do the same as in part 1 but for this combined network.
+3. Apply the proximity-based methods "Pipeline P1" and/or "Pipeline P2" from Gysi et al. paper using these the combined PPI network. What are the top drugs you find?
+4. Apply the network proximity measure from the Zhou et al. paper using the combined PPI network. What are the top drugs you find?
+5. Visualize the results from each this parts.
+
+# Notes and Hints
+
+- Certain network measures can take a long time to calculate in large networks (like the Human and Drug-Human PPI networks). In particular, distance and betweeness centrality can take some time. You can try calculating these measures for a subset of nodes or nodes pairs to get an idea of how long calculating all will take.
+- To combine the three PPI networks, you need to know which proteins are shared between them. Make sure the combined network is getting the interactions for each protein from the three PPI networks. 
