@@ -26,6 +26,8 @@ Note: These networks were obtained from NDEx (http://ndexbio.org/). You need to 
 4. Apply the network proximity measure from the Zhou et al. paper using the combined PPI network. What are the top drugs you find?
 5. Visualize the results from each these parts.
 
+You should first do 1 and 5 (only the visualization of part 1). Then move on to 2, 3, 4, and 5 (the visualization of the results of all of them).
+
 ## Notes and Hints
 
 - You need to download the networks from this GitHub repository and upload them to your session on Google Colab. In the Jupyter notebook in this repository, you won't need that until the end, and the notebook has some instructions on how to do it.
