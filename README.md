@@ -1,4 +1,4 @@
-# CdeCMx2020-NetworkBiology Challenge
+# CdeCMx2020 - Network Biology Challenge
 
 This repository contains the Jupyter notebooks, networks, and other files for the CdeCMx 2020 Network Biology Challenge.
 
