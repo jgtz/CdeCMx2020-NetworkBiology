@@ -24,11 +24,12 @@ Note: These networks were obtained from NDEx (http://ndexbio.org/). You need to 
 2. Combine these three PPI networks. Do the same as in part 1 but for this combined network.
 3. Apply the proximity-based methods "Pipeline P1" and/or "Pipeline P2" from Gysi et al. paper using these the combined PPI network. What are the top drugs you find?
 4. Apply the network proximity measure from the Zhou et al. paper using the combined PPI network. What are the top drugs you find?
-5. Visualize the results from each this parts.
+5. Visualize the results from each these parts.
 
 ## Notes and Hints
 
 - You need to download the networks from this GitHub repository and upload them to your session on Google Colab. In the Jupyter notebook in this repository, you won't need that until the end, and the notebook has some instructions on how to do it.
 - Make sure that, when you import the networks, they are of the right type of network (we've only discussed undirected networks). The meaning of distance, centrality, etc. changes depending on if the network is undirected, directed, a multigraph, etc.
 - Certain network measures can take a long time to calculate in large networks (like the Human and Drug-Human PPI networks). In particular, distance and betweeness centrality can take some time. You can try calculating these measures for a subset of nodes or nodes pairs to get an idea of how long calculating all will take.
+- The Human PPI and Drug-Human PPI networks are not going to be easy to visualize using NetworkX. There's dedicated network software for network visualization of these large networks, like Cytoscape (https://cytoscape.org/). It is possible that your computer might not be abble to load or be too slow if you load these large networks in Cytoscape, so keep that in mind.
 - To combine the three PPI networks, you need to know which proteins are shared between them. Make sure the combined network is getting the interactions for each protein from the three PPI networks. 
